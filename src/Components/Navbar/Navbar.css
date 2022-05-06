@@ -1,0 +1,22 @@
+i {
+  color: white;
+}
+li {
+  padding: 0rem 2.5vw 0rem 2.5vw;
+}
+.navbar-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+nav {
+  align-items: center;
+  height: 100%;
+}
+.navigation {
+  background-color: black;
+  height: 10vh;
+  font-size: 1.5vw;
+}
