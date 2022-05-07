@@ -1,10 +1,9 @@
 const data = [
   {
     id: 1,
-    title: "Alimentacion Consciente",
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNZiIrbb-xhS0OGGV_yEC2UdRKw8NrSaZfSbISab-GRIVQXlTh",
-    text: "Actividades de formación teórico prácticas de distintas especialidades con fines específicos para una mejor calidad de vida laboral a nivel integral. Formato online y presencial, duración 40 min. Dictado por profesionales de la salud.",
+    title: "Pagina1",
+    image: "https://i.ibb.co/SvfQHct/App-Image-2022-05-06-at-11-42-32-PM.png",
+    text: "https://pagina1danel.netlify.app",
   },
   {
     id: 2,
