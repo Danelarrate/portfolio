@@ -76,9 +76,19 @@ function ContactUs() {
         >
           <form ref={form} onSubmit={sendEmail}>
             <div class="form-group row">
-              <label class="col-sm-2 col-form-label">Name</label>
+              <label
+                style={{ fontSize: "1.5vw" }}
+                class="col-sm-2 col-form-label"
+              >
+                Name
+              </label>
               <div class="col-sm-10">
                 <input
+                  style={{
+                    width: "27vw",
+                    height: "6vh",
+                    margin: "1.5vh 0 0 0",
+                  }}
                   className="form-control"
                   type="text"
                   name="nombre"
@@ -87,9 +97,19 @@ function ContactUs() {
               </div>
             </div>
             <div class="form-group row">
-              <label class="col-sm-2 col-form-label">Email</label>
+              <label
+                style={{ fontSize: "1.5vw" }}
+                class="col-sm-2 col-form-label"
+              >
+                Email
+              </label>
               <div class="col-sm-10">
                 <input
+                  style={{
+                    width: "27vw",
+                    height: "6vh",
+                    margin: "1.5vh 0 0 0",
+                  }}
                   className="form-control"
                   type="email"
                   name="mail"
@@ -98,15 +118,42 @@ function ContactUs() {
               </div>
             </div>
             <div class="form-group row">
-              <label class="col-sm-2 col-form-label">Phone Number</label>
+              <label
+                style={{ fontSize: "1.5vw" }}
+                class="col-sm-2 col-form-label"
+              >
+                Phone Number
+              </label>
               <div class="col-sm-10">
-                <input className="form-control" type="tel" name="user_phone" />
+                <input
+                  className="form-control"
+                  type="tel"
+                  name="user_phone"
+                  style={{
+                    width: "27vw",
+                    height: "6vh",
+                    margin: "1.5vh 0 0 0",
+                  }}
+                />
               </div>
             </div>
             <div class="form-group row">
-              <label class="col-sm-2 col-form-label">Message</label>
+              <label
+                class="col-sm-2 col-form-label"
+                style={{ fontSize: "1.5vw" }}
+              >
+                Message
+              </label>
               <div class="col-sm-10">
-                <textarea className="form-control" name="message" />
+                <textarea
+                  style={{
+                    width: "27vw",
+                    height: "10vh",
+                    margin: "1.5vh 0 0 0.1vw",
+                  }}
+                  className="form-control"
+                  name="message"
+                />
               </div>
             </div>
             <div class="form-group row" style={{ justifyContent: "center" }}>

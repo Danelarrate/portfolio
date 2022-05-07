@@ -34,3 +34,6 @@ code {
   opacity: 1;
   transition: opacity 5000ms ease-in;
 }
+label {
+  font-size: 5vw;
+}
