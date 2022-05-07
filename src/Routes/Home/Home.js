@@ -9,7 +9,7 @@ function Home() {
         Hi,<br></br>I´m Danel,<br></br>web developer
       </h1>
       <p>Front End Developer</p>
-      <div class="wrapper">
+      <div className="wrapper">
         <NavLink to="/contact">
           <button className="fancy-btn contact-button">Contact me!</button>
         </NavLink>

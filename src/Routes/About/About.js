@@ -57,27 +57,27 @@ function About() {
       </div>
       <div className="about-divs">
         <h2>Skills</h2>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm">
               <AiFillHtml5 style={iconStyle} />
               <p>HTML</p>
             </div>
-            <div class="col-sm">
+            <div className="col-sm">
               <AiFillGithub style={iconStyle} />
               <p>Github</p>
             </div>
-            <div class="col-sm">
+            <div className="col-sm">
               <FaReact style={iconStyle} />
               <p>React</p>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm">
+          <div className="row">
+            <div className="col-sm">
               <FaCss3Alt style={iconStyle} />
               <p>CSS</p>
             </div>
-            <div class="col-sm">
+            <div className="col-sm">
               <DiJavascript1 style={iconStyle} />
               <p>Javascript</p>
             </div>
