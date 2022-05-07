@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import data from "./data";
 import "./Slider.css";
+import { AiFillGithub } from "react-icons/ai";
+import { FiMonitor } from "react-icons/fi";
 
 const Slider = () => {
   const [proyectos] = useState(data);
@@ -28,7 +30,7 @@ const Slider = () => {
     <section className="slider">
       <div className="card-section">
         {proyectos.map((actividad, actividadIndex) => {
-          const { id, title, text, image } = actividad;
+          const { id, title, descripcion, image, giturl, url } = actividad;
           let position = "nextSlide";
           if (actividadIndex === index) {
             position = "activeSlide";
@@ -42,7 +44,7 @@ const Slider = () => {
           return (
             <article className={position} key={id}>
               <div className="div-img-proyectos">
-                <img src={image} alt={title}></img>
+                <img src={image} alt={title} className="img-fluid"></img>
               </div>
               <div className="div-proyectos">
                 <h4
@@ -54,7 +56,35 @@ const Slider = () => {
                 >
                   {title}
                 </h4>
-                <p style={{ color: "black", fontSize: "1.3vw" }}>{text}</p>
+                <p style={{ color: "black", fontSize: "1.3vw" }}>
+                  {descripcion}
+                </p>
+                <div style={{ display: "flex", margin: "8vh 0 " }}>
+                  <button className="proyect-btn">
+                    <a
+                      style={{ fontSize: "1vw" }}
+                      href={giturl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      alt="git hub"
+                    >
+                      Ver Codigo
+                      <AiFillGithub style={{ fontSize: "2vw" }} />
+                    </a>
+                  </button>
+                  <button className="proyect-btn">
+                    <a
+                      style={{ fontSize: "1vw" }}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      alt="monitor"
+                    >
+                      Ver Proyecto
+                      <FiMonitor style={{ fontSize: "2vw" }} />
+                    </a>
+                  </button>
+                </div>
               </div>
             </article>
           );

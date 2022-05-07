@@ -82,6 +82,7 @@ article.nextSlide {
 }
 .div-img-proyectos img {
   object-fit: cover;
+
   min-width: 100%;
   min-height: 100%;
   border-radius: 4vh 0 0 2vw;
@@ -94,4 +95,19 @@ article.nextSlide {
   border-left: none;
   background-color: white;
   text-align: left;
+}
+
+.proyect-btn {
+  margin: 1vh 0.5vw;
+  border: none;
+  border-radius: 1vh;
+  color: #cdcdcd;
+  background-color: #007cd3;
+}
+.proyect-btn:hover {
+  background-color: #07ffe9;
+}
+.proyect-btn a {
+  text-decoration: none;
+  color: black;
 }
