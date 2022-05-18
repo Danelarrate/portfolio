@@ -9,12 +9,12 @@ const data = [
   },
   {
     id: 2,
-    title: "Proyecto",
+    title: "My Practices",
     image:
-      "https://www.generationsforpeace.org/wp-content/uploads/2018/03/empty.jpg",
+      "https://thumbs.dreamstime.com/b/projects-concept-black-chalkboard-d-rendering-handwritten-top-view-office-desk-lot-business-office-supplies-79906734.jpg",
     descripcion: "Esperando Proyecto",
-    giturl: "https://github.com/Danelarrate",
-    url: "",
+    giturl: "https://github.com/Danelarrate/my-practice",
+    url: "https://my-practices.netlify.app/",
   },
   {
     id: 3,
