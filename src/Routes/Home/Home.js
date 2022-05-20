@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="home">
+    <main className="home">
       <h1>
         Hi,<br></br>I´m Danel,<br></br>web developer
       </h1>
@@ -14,7 +14,7 @@ function Home() {
           <button className="fancy-btn contact-button">Contact me!</button>
         </NavLink>
       </div>
-    </div>
+    </main>
   );
 }
 

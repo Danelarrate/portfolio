@@ -5,7 +5,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 function Navbar() {
   return (
-    <div className="navigation">
+    <header className="navigation">
       <nav className="navbar navbar-expand navbar-dark">
         <div className="navbar-div">
           <div style={{ justifyContent: "center" }}>
@@ -76,7 +76,7 @@ function Navbar() {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }
 

@@ -33,8 +33,8 @@ function ContactUs() {
   };
 
   return (
-    <div className="contact">
-      <div style={contatcDivStyle}>
+    <main className="contact">
+      <section style={contatcDivStyle}>
         <a
           href="https://www.linkedin.com/in/danelarrate/"
           target="_blank"
@@ -63,8 +63,8 @@ function ContactUs() {
             }}
           />
         </a>
-      </div>
-      <div style={contatcDivStyle}>
+      </section>
+      <section style={contatcDivStyle}>
         <div
           style={{
             width: "80%",
@@ -171,8 +171,8 @@ function ContactUs() {
             </div>
           </form>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 

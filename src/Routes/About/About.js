@@ -13,8 +13,8 @@ function About() {
   };
 
   return (
-    <div className="about">
-      <div className="about-divs">
+    <main className="about">
+      <section className="about-divs">
         <h2 className="text-center">Sobre mi</h2>
         <p className="p-2 text-center">
           Empecé en el ámbito de la programación a través de un curso de HTML 5.
@@ -54,8 +54,8 @@ function About() {
             </button>
           </a>
         </div>
-      </div>
-      <div className="about-divs">
+      </section>
+      <section className="about-divs">
         <h2>Skills</h2>
         <div className="container">
           <div className="row">
@@ -83,8 +83,8 @@ function About() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </section>
+    </main>
   );
 }
 
